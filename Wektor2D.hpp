@@ -11,7 +11,11 @@ public:
         this->x = x;
         this->y = y;
     }
-    Wektor2D() {}
+    Wektor2D() 
+    {
+        this->x = 0.;
+        this->y = 0.;
+    }
 
     void setX(double x_set) { this->x = x_set; }
 
