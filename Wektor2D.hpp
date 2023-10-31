@@ -31,5 +31,6 @@ public:
     {
         double wynik;
         wynik = (this->x * obj.x) + (this->y * obj.y);
+        return wynik;
     }
 };
